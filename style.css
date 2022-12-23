@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container { 
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.nav__item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.nav__item a {
+    margin-top: 50px;
+} 
+
+.list {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.list__items {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #8C8A8A;
+}
+
+.logo {
+    margin: 50px 0; 
+}
+
+.header__content {
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.main__content {
+    display: flex;
+    gap: 30px;
+    margin: 30px 0;
+}
+
+.about {
+    background: #F0F0F0;
+    width: 730px;
+    padding: 50px 95px 51px 40px;
+}
+
+.about__title {
+    font-style: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #4581B7;
+}
+
+.about__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 20px;
+    color: #808080;
+}
+
+.about1 {
+    width: 350px;
+    padding: 50px 24px 98px 40px;
+    background: #F0F0F0;
+}
+
+.about__desc {
+    display: inline-block;
+}
+
+.about__text1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 20px;
+    color: #808080;
+}
+
+.about__text2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 30px;
+    color: #808080;
+}
+
+.about__text3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 30px;
+    color: #808080;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #F0F0F0;
+    width: 1110px;
+    height: 150px;
+    padding: 15px 40px;
+    margin-bottom: 30px;
+}
+
+.footer__desc {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer__desc_text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #808080;
+}
+
+.footer__desc_text1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    color: #808080;
+}
